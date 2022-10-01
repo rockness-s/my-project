@@ -1,13 +1,58 @@
+:root {
+    --primary-color: rgb(60, 233, 207);
+    --heading-font: 'Fredericka the Great', cursive;
+    --main-font: 'Source Sans Pro', sans-serif;
+}
+
+html, body {
+    height: 100%;
+  }
+
 body {
-    background: turquoise;
+    background: linear-gradient(rgb(255, 255, 255), rgb(159, 242, 229) 80%) no-repeat;
     margin: 15px;
+    font-family: var(--main-font);
+
 }
 
 h1 {
     font-family: 'Aboreto', cursive;
+    font-weight: 900;
+    margin-bottom: 50px;
+    font-size: 60px;
 }
+
+h3 {
+    font-weight: 800;
+    font-size: 34px;
+    margin-bottom: 0;
+}
+
+a {
+    background-color: var(--primary-color) !important;
+    margin: 80px;
+}
+
+p {
+    margin-bottom: 0;
+    font-size: 24px;
+    line-height: 1.1;
+}
+
+.hero {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.look-below {
+    margin-top: 90px;
+}
+
+
 
 
 /*font-family: 'Aboreto', cursive;
 font-family: 'Fredericka the Great', cursive;
-font-family: 'Poppins', sans-serif; light, medium
+font-family: 'Source Sans Pro', sans-serif; light, regular
+
+/*#ACEBE7
