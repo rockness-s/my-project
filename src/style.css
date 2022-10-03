@@ -1,6 +1,6 @@
 :root {
     --primary-color: rgb(60, 233, 207);
-    --heading-font: 'Fredericka the Great', cursive;
+    --heading-font: 'Trirong', serif;
     --main-font: 'Source Sans Pro', sans-serif;
 }
 
@@ -12,8 +12,8 @@ body {
 }
 
 h1 {
-    font-family: 'Aboreto', cursive;
-    font-weight: 900;
+    font-family: var(--heading-font);
+    font-weight: 500;
     margin-bottom: 50px;
     font-size: 60px;
 }
@@ -21,13 +21,16 @@ h1 {
  h2 {
     text-align: center;
     font-weight: bold;
+    font-family: var(--heading-font);
 }
 
 h3 {
-    font-weight: 800;
+    font-weight: 500;
     font-size: 34px;
     margin-bottom: 0;
 }
+
+
 
 p {
     margin-bottom: 0;
@@ -106,8 +109,7 @@ footer {
 }
 
 
-/*font-family: 'Aboreto', cursive;
-font-family: 'Fredericka the Great', cursive;
-font-family: 'Source Sans Pro', sans-serif; light, regular
+/*font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Trirong', serif;
 
 /*#ACEBE7
