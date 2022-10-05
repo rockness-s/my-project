@@ -115,6 +115,20 @@ footer {
     margin-bottom: auto !important;
 }
 
+.about-link {
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+   
+}
+
+.about-link:hover {
+    font-weight: 600;
+    color: black;
+}
+
+
+
 /*font-family: 'Source Sans Pro', sans-serif;
 font-family: 'Trirong', serif;
 
