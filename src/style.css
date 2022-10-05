@@ -110,6 +110,10 @@ footer {
     
 }
 
+.about-description {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
 
 /*font-family: 'Source Sans Pro', sans-serif;
 font-family: 'Trirong', serif;
