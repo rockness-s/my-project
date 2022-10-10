@@ -110,6 +110,11 @@ footer {
     color: var(--primary-color) !important;
     
 }
+.content-about {
+margin-left: 70px;
+margin-right: 70px;
+}
+
 
 .about-description {
     margin-top: auto !important;
