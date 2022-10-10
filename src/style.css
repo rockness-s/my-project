@@ -143,6 +143,28 @@ footer {
     padding: 20px;
  }
 
+ .contact-links {
+    margin: 100px;
+    background-color: rgba(255, 255, 255, 0.771);
+    padding: 5px;
+    border-radius: 4px;
+ }
+
+ .contact-links p {
+    margin-top: 60px;
+    margin-bottom: 60px;
+ }
+ 
+ .contact-links a {
+    text-decoration: none;
+    color: black;
+ }
+
+ .contact-links a:hover {
+    text-decoration: underline;
+    font-weight: 600;
+ }
+
 
 /*font-family: 'Source Sans Pro', sans-serif;
 font-family: 'Trirong', serif;
