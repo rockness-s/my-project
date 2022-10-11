@@ -179,6 +179,44 @@ margin-right: 70px;
     font-weight: 600;
  }
 
+ @media (max-width:600px) {
+    h5 {
+        display: none;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .home-contact-section {
+        margin-left: 10px;
+        margin-right: 10px;
+     }
+    .about-description {
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    .content-about {
+        margin-left: 10px;
+        margin-right: 10px;
+        }
+
+    .contact-links {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .contact-links a {
+        font-size: 18px;
+    }
+ }
+
 
 /*font-family: 'Source Sans Pro', sans-serif;
 font-family: 'Trirong', serif;
