@@ -45,6 +45,15 @@ footer {
     font-size: 10px;
 }
 
+.navbar-brand {
+    font-family: var(--heading-font);
+}
+
+.active {
+    font-weight: 600;
+    color: var(--primary-color) !important;
+}
+
 .hero {
     text-align: center;
     margin-top: 150px;
